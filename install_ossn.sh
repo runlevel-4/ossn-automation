@@ -45,7 +45,7 @@ cd /var/www/html
 sudo wget https://www.opensource-socialnetwork.org/download_ossn/latest/build.zip
 sudo unzip build.zip
 sudo chown -R www-data:www-data /var/www/html/ossn
-sudo mkdir var/www/html/ossn/data
+sudo mkdir ossn/data
 echo
 
 # MySQL Configuration
