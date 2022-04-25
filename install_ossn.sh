@@ -41,9 +41,10 @@ echo
 # Download and decompress OSSN to web directory /var/www/html/ossn
 echo "[Downloading and installing OSSN]"
 echo
+cd /var/www/html
 wget https://www.opensource-socialnetwork.org/download_ossn/latest/build.zip
-unzip build.zip -d var/www/html/
-sudo chown -r www-data:www-data /var/www/html/ossn
+sudo unzip build.zip -d var/www/html
+sudo chown -R www-data:www-data /var/www/html/ossn
 sudo mkdir var/www/html/ossn/data
 echo
 
