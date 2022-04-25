@@ -55,4 +55,5 @@ sudo mysql -u root -p < $HOME/ossn-automation/mysql_setup.sql
 echo
 
 # Restart web service
+sudo a2enmod rewrite
 sudo systemctl restart apache2
